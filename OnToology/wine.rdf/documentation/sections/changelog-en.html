@@ -1,0 +1,652 @@
+<div id="changelog">
+<h2 id="changes" class="list">Changes from last version</h2>
+<h3 id="changeClass" class="list">Classes</h3>
+<p><u>Added classes</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedTableWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedTableWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedTableWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Red&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBurgundy">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBurgundy</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBurgundy&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine&gt;) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sauternes">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sauternes</a>
+<ul>
+<li><li><li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux</li>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor&gt; ObjectUnionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteTableWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteTableWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteTableWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#White&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrah">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrah</a>
+<ul>
+<li><li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrah&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteSyrahGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOr">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOr</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOr&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBurgundy&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CotesDOrRegion&gt;)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest</a>
+<ul>
+<li><li>Added: DisjointClasses DisjointClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EarlyHarvest&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest&gt;)</li>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Semillon">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Semillon</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Semillon&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRedWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRedWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRedWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsatianWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsatianWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsatianWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AlsaceRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Zinfandel">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Zinfandel</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Zinfandel&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ZinfandelGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlanc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlanc</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlanc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Margaux&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MargauxRegion&gt;)) )</li>
+<li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chianti">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chianti</a>
+<ul>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianWine</li>
+<li><li><li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRiesling">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRiesling</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryRiesling&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry&gt;)) )</li>
+<li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CaliforniaRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectAllValuesFrom(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape&gt;))) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoir">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoir</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoir&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotNoirGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineFlavor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineFlavor</a>
+<ul>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineFlavor&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Delicate&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Moderate&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Strong&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chardonnay">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chardonnay</a>
+<ul>
+<li><li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Chardonnay&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FrenchRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#IceWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#IceWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#IceWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#White&gt;)) )</li>
+<li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais</a>
+<ul>
+<li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Beaujolais&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BeaujolaisRegion&gt;)) )</li>
+<li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste</a>
+<ul>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TexasRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GermanyRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BordeauxRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet</a>
+<ul>
+<li><li><li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MuscadetRegion&gt;)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlanc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlanc</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlanc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonOrSauvignonBlanc&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meritage">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meritage</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meritage&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectAllValuesFrom(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFrancGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignonGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MalbecGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MerlotGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PetiteVerdotGrape&gt;)) ObjectMinCardinality(2 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlanc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlanc</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlanc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignon">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignon</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignon&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetSauvignonGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Merlot">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Merlot</a>
+<ul>
+<li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Merlot&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MerlotGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+<li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage</a>
+<ul>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EarlyHarvest">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EarlyHarvest</a>
+<ul>
+<li><li>Added: DisjointClasses DisjointClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#EarlyHarvest&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LateHarvest&gt;)</li>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineGrape">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineGrape</a>
+<ul>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Grape</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Meursault&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MeursaultRegion&gt;)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ItalianRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#White&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteNonSweetWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteNonSweetWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteNonSweetWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt; ObjectAllValuesFrom(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#OffDry&gt;))) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt;) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</a>
+<ul>
+<li><li><li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid</li>
+<li><li><li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#LoireRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilion">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilion</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilion&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#StEmilionRegion&gt;)) )</li>
+<li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#BourgogneRegion&gt;)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine</a>
+<ul>
+<li><li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Port">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Port</a>
+<ul>
+<li><li><li><li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Red&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Rose&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#White&gt;) )</li>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWhiteWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWhiteWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWhiteWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DryWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFranc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFranc</a>
+<ul>
+<li><li><li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFranc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CabernetFrancGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineSugar">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineSugar</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineSugar&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#OffDry&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sweet&gt;) )</li>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Gamay">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Gamay</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Gamay&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#GamayGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FullBodiedWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FullBodiedWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#FullBodiedWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Full&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Red&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBordeaux">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBordeaux</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedBordeaux&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RedWine&gt;) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy</a>
+<ul>
+<li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineBody">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineBody</a>
+<ul>
+<li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineTaste</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineBody&gt; ObjectOneOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Full&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Light&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medium&gt;) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sweet&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RieslingGrape&gt;) ObjectMaxCardinality(1 &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt; owl:Thing)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Pauillac&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PauillacRegion&gt;)) )</li>
+<li><li><li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid">http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetRiesling">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetRiesling</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SweetRiesling&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Riesling&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sweet&gt;)) )</li>
+<li><li>Added: SubClass of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#DessertWine</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RoseWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RoseWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#RoseWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Rose&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc</a>
+<ul>
+<li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Medoc&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#MedocRegion&gt;)) )</li>
+<li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#TableWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Anjou">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Anjou</a>
+<ul>
+<li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Anjou&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AnjouRegion&gt;)) )</li>
+<li><li></ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Tours">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Tours</a>
+<ul>
+<li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Tours&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ToursRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Grape">http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#Grape</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre</a>
+<ul>
+<li><li><li><li><li><li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Sancerre&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SancerreRegion&gt;)) )</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AmericanWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AmericanWine</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#AmericanWine&gt; ObjectIntersectionOf(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine&gt; ObjectHasValue(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#USRegion&gt;)) )</li>
+</ul>
+</li>
+</ul><p><u>Deleted classes</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Burgundy">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Burgundy</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PinotBlanc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PinotBlanc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SweetWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SweetWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedBordeaux">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedBordeaux</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Muscadet">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Muscadet</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Chianti">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Chianti</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#PotableLiquid">http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#PotableLiquid</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineFlavor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineFlavor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DessertWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DessertWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Medoc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Medoc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#FullBodiedWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#FullBodiedWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Pauillac">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Pauillac</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#TableWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#TableWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Anjou">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Anjou</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineBody">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineBody</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryRiesling">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryRiesling</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#Grape">http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#Grape</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Sancerre">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Sancerre</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#AmericanWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#AmericanWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteBurgundy">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteBurgundy</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#StEmilion">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#StEmilion</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Sauterne">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Sauterne</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CabernetFranc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CabernetFranc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PetiteSyrah">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PetiteSyrah</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CotesDOr">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CotesDOr</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Bordeaux">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Bordeaux</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#LateHarvest">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#LateHarvest</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PinotNoir">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#PinotNoir</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedTableWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedTableWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedBurgundy">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedBurgundy</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteTableWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteTableWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#GermanWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#GermanWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineGrape">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineGrape</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SweetRiesling">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SweetRiesling</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Semillon">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Semillon</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineDescriptor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineDescriptor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Region">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Region</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryRedWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryRedWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Wine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Wine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteLoire">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteLoire</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CheninBlanc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CheninBlanc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RoseWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RoseWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Margaux">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Margaux</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Zinfandel">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Zinfandel</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineTaste">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineTaste</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CaliforniaWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CaliforniaWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#RedWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SemillonOrSauvignonBlanc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SemillonOrSauvignonBlanc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Riesling">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Riesling</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Chardonnay">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Chardonnay</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#FrenchWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#FrenchWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CabernetSauvignon">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#CabernetSauvignon</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Merlot">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Merlot</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Beaujolais">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Beaujolais</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Vintage">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Vintage</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#TexasWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#TexasWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryWhiteWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#DryWhiteWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#EarlyHarvest">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#EarlyHarvest</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Meursault">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Meursault</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#ItalianWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#ItalianWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SauvignonBlanc">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#SauvignonBlanc</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#IceWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#IceWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteBordeaux">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteBordeaux</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#AlsatianWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#AlsatianWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Loire">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Loire</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Meritage">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Meritage</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Winery">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Winery</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Port">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Port</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineColor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineColor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#VintageYear">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#VintageYear</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteNonSweetWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WhiteNonSweetWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Tours">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Tours</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineSugar">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#WineSugar</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Gamay">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#Gamay</a>
+</li>
+</ul><h3 id="changeProp" class="list">Object Properties</h3>
+<p><u>Added properties</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor</a>
+<ul>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineDescriptor</li>
+<li>Added: domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear</a>
+<ul>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear&gt;)</li>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear</li>
+<li>Added: domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#madeFromFruit">http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#madeFromFruit</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape</a>
+<ul>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineGrape</li>
+<li>Added: InverseObjectProperties InverseObjectProperties(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeIntoWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt;)</li>
+<li>Added: domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+<li>Added: SubProperty of http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#madeFromFruit</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor</li>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor&gt;)</li>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineFlavor</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeIntoWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeIntoWine</a>
+<ul>
+<li>Added: InverseObjectProperties InverseObjectProperties(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeIntoWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody</a>
+<ul>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineBody</li>
+<li>Added: SubProperty of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor</li>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker</a>
+<ul>
+<li>Added: InverseObjectProperties InverseObjectProperties(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#producesWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker&gt;)</li>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#adjacentRegion">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#adjacentRegion</a>
+<ul>
+<li>Added: SymmetricObjectProperty SymmetricObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#adjacentRegion&gt;)</li>
+<li>Added: domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region</li>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar</a>
+<ul>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineSugar</li>
+<li>Added: SubProperty of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor</li>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn</a>
+<ul>
+<li>Added: domain http://www.w3.org/2002/07/owl#Thing</li>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region</li>
+<li>Added: TransitiveObjectProperty TransitiveObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#producesWine">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#producesWine</a>
+<ul>
+<li>Added: InverseObjectProperties InverseObjectProperties(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#producesWine&gt; &lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker&gt;)</li>
+</ul>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor</a>
+<ul>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor&gt;)</li>
+<li>Added: Range http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WineColor</li>
+<li>Added: domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine</li>
+<li>Added: SubProperty of http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasWineDescriptor</li>
+</ul>
+</li>
+</ul><p><u>Deleted properties</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#locatedIn">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#locatedIn</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasVintageYear">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasVintageYear</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#madeFromGrape">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#madeFromGrape</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasFlavor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasFlavor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasWineDescriptor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasWineDescriptor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#madeIntoWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#madeIntoWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#adjacentRegion">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#adjacentRegion</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#producesWine">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#producesWine</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasSugar">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasSugar</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasBody">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasBody</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasColor">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasColor</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasMaker">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#hasMaker</a>
+</li>
+<li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#madeFromFruit">http://www.w3.org/TR/2003/CR-owl-guide-20030818/food#madeFromFruit</a>
+</li>
+</ul><h3 id="changeDataProp" class="list">Data Properties</h3>
+<p><u>Added data properties</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue">http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue</a>
+<ul>
+<li>Added: Domain http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#positiveInteger</li>
+</ul>
+</li>
+</ul><p><u>Deleted data properties</u></p>
+<ul><li><a href="#http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#yearValue">http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine#yearValue</a>
+</li>
+</ul></div>

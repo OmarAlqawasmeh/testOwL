@@ -1,0 +1,56 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "vin:DessertWine" "vin:WineTaste" "vin:EarlyHarvest" "vin:Bordeaux" "vin:WineFlavor" "vin:WineDescriptor" "vin:Wine" "vin:ItalianWine" "vin:SweetRiesling" "vin:WineSugar" "vin:WineBody" "vin:WineGrape" "vin:Port" "vin:WineColor" "vin:Chianti" "vin:RedWine" "vin:LateHarvest" "vin:Sauternes" "food:OtherTomatoBasedFood" "food:PotableLiquid" "food:PastaWithNonSpicyRedSauce" "food:PastaWithLightCreamSauce" "food:RedMeat" "food:PastaWithSpicyRedSauce" "food:NonRedMeat" "food:MealCourse" "food:SweetDessert" "food:EdibleThing" "food:Fish" "food:PastaWithHeavyCreamSauce" "food:EatingGrape" "food:DarkMeatFowl" "food:Grape" "food:NonSpicyRedMeat" "food:ConsumableThing" "food:Meat" "food:CheeseNutsDessert" "food:Juice" "food:Pasta" "food:Dessert" "food:Shellfish" "food:Meal" "food:Seafood" "food:NonOysterShellfish" "food:OysterShellfish" "food:SweetFruit" "food:LightMeatFowl" "food:NonSweetFruit" "food:PastaWithWhiteSauce" "food:PastaWithRedSauce" "food:SpicyRedMeat" "food:Fowl" "food:BlandFish" "food:NonBlandFish" ; /*classes style*/
+	"food:PotableLiquid" -> "food:ConsumableThing" [ label = "rdfs:subClassOf" ];
+	"food:LightMeatFowl" -> "food:Fowl" [ label = "rdfs:subClassOf" ];
+	"food:Seafood" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"vin:LateHarvest" -> "vin:Wine" [ label = "rdfs:subClassOf" ];
+	"food:RedMeat" -> "food:Meat" [ label = "rdfs:subClassOf" ];
+	"food:MealCourse" -> "food:ConsumableThing" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithHeavyCreamSauce" -> "food:PastaWithWhiteSauce" [ label = "rdfs:subClassOf" ];
+	"food:Fish" -> "food:Seafood" [ label = "rdfs:subClassOf" ];
+	"food:NonOysterShellfish" -> "food:Shellfish" [ label = "rdfs:subClassOf" ];
+	"food:SpicyRedMeat" -> "food:RedMeat" [ label = "rdfs:subClassOf" ];
+	"vin:SweetRiesling" -> "vin:DessertWine" [ label = "rdfs:subClassOf" ];
+	"vin:Wine" -> "food:PotableLiquid" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithRedSauce" -> "food:Pasta" [ label = "rdfs:subClassOf" ];
+	"food:NonRedMeat" -> "food:Meat" [ label = "rdfs:subClassOf" ];
+	"vin:Port" -> "vin:RedWine" [ label = "rdfs:subClassOf" ];
+	"food:CheeseNutsDessert" -> "food:Dessert" [ label = "rdfs:subClassOf" ];
+	"food:Fowl" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"vin:Chianti" -> "vin:ItalianWine" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithLightCreamSauce" -> "food:PastaWithWhiteSauce" [ label = "rdfs:subClassOf" ];
+	"food:Pasta" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"food:EatingGrape" -> "food:Grape" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithNonSpicyRedSauce" -> "food:PastaWithRedSauce" [ label = "rdfs:subClassOf" ];
+	"food:NonSweetFruit" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"food:Meat" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"food:DarkMeatFowl" -> "food:Fowl" [ label = "rdfs:subClassOf" ];
+	"food:SweetDessert" -> "food:Dessert" [ label = "rdfs:subClassOf" ];
+	"vin:WineSugar" -> "vin:WineTaste" [ label = "rdfs:subClassOf" ];
+	"food:OysterShellfish" -> "food:Shellfish" [ label = "rdfs:subClassOf" ];
+	"food:Grape" -> "food:SweetFruit" [ label = "rdfs:subClassOf" ];
+	"vin:DessertWine" -> "vin:Wine" [ label = "rdfs:subClassOf" ];
+	"food:SweetFruit" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"food:BlandFish" -> "food:Fish" [ label = "rdfs:subClassOf" ];
+	"vin:WineGrape" -> "food:Grape" [ label = "rdfs:subClassOf" ];
+	"food:OtherTomatoBasedFood" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"vin:WineColor" -> "vin:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"food:Dessert" -> "food:EdibleThing" [ label = "rdfs:subClassOf" ];
+	"food:Shellfish" -> "food:Seafood" [ label = "rdfs:subClassOf" ];
+	"vin:EarlyHarvest" -> "vin:Wine" [ label = "rdfs:subClassOf" ];
+	"food:NonSpicyRedMeat" -> "food:RedMeat" [ label = "rdfs:subClassOf" ];
+	"vin:WineFlavor" -> "vin:WineTaste" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithWhiteSauce" -> "food:Pasta" [ label = "rdfs:subClassOf" ];
+	"food:NonBlandFish" -> "food:Fish" [ label = "rdfs:subClassOf" ];
+	"food:Juice" -> "food:PotableLiquid" [ label = "rdfs:subClassOf" ];
+	"vin:WineTaste" -> "vin:WineDescriptor" [ label = "rdfs:subClassOf" ];
+	"food:Meal" -> "food:ConsumableThing" [ label = "rdfs:subClassOf" ];
+	"vin:Sauternes" -> "vin:Bordeaux" [ label = "rdfs:subClassOf" ];
+	"vin:Sauternes" -> "vin:LateHarvest" [ label = "rdfs:subClassOf" ];
+	"food:PastaWithSpicyRedSauce" -> "food:PastaWithRedSauce" [ label = "rdfs:subClassOf" ];
+	"vin:WineBody" -> "vin:WineTaste" [ label = "rdfs:subClassOf" ];
+	"food:EdibleThing" -> "food:ConsumableThing" [ label = "rdfs:subClassOf" ];
+
+}

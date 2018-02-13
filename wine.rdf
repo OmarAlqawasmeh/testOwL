@@ -26,7 +26,7 @@
       http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml
       Substantially changed, in particular the Region based relations.
     </rdfs:comment>
-    <rdfs:label>Wine Ontology</rdfs:label>
+    <rdfs:label>Wine Ontology version 1</rdfs:label>
   </owl:Ontology>
   
   <owl:Class rdf:ID="Wine">
